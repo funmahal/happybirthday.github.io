@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Raleway:wght@100&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: blanchedalmond; */
+    display: grid;
+    place-items: center;
+    /* margin: 0 0 0 5vh; */
+}
+.para{
+    min-width: 50vw;
+    height: 40vh;
+    color: black;
+    text-shadow: 0 0 2rem rgba(0,0,0,0.5);
+    font-size: 7rem;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Satisfy', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.gift{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+.gift a img{
+    height: 50vh;
+    width: auto;
+    /* margin: 20vh 0 0 20vh; */
+    margin-top: 30vh;
+
+}
+ img{
+    height: 20vh;
+    width: 10vw;
+}
